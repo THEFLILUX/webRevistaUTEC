@@ -1,49 +1,101 @@
-/*!
- * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
- */
-body {
-  padding-top: 12vh;
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.carousel-item {
-  height: 90vh;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+header {
+  width: 100%;
+  position: fixed;
+  transition: .3s;
+}
+.logoicon {
+  position: fixed;
+  display: block;
+  left: 50%;
+  transform: translate(-50%, 15px);
+}
+.logoicon img{
+  height: 33px;
+  width: auto;
 }
 
-section{
-  height: 90vh;
+.mobile-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0px 20px;
+  border-bottom: none;
+  background: rgba(0,0,0,1);
+  background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff', GradientType=0 );
+  transition: .3s;
 }
 
-.navbar{
-  height: 12vh;
-  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.4);
+.mobile-icon a {
+  font-size: 16px;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: white;
+  padding: 6px 10px;
+  transition: .3s;
+}
+.mobile-icon a:first-child {
+  height: 33px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, .8);
 }
 
-.header_area .navbar .navbar-brand{
-  padding: 0 0 0 7rem;
+.mobile-icon a:last-child {
+  font-size: 24px;
+  transform: rotate(-10deg);
 }
 
-.header_area .navbar .navbar-nav{
-  padding: 0rem 7rem 0rem 0rem;
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, .7);
+}
+
+.main-nav a {
+  display: block;
+  width: 100%;
+  padding: 15px 10px;
+  border-bottom: 1px solid #f0f0f0;
+  margin: 2px 20px;
+  text-decoration: none;
+  color: black;
+  transition: all ease .3s;
+}
+
+.main-nav a:active, .main-nav a:checked {
+  color: black;
+}
+
+.change, .bigchange {
+  border-bottom: 1px solid #f0f0f0;
+  box-shadow: 0 0px 10px #b6b6b6;
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);
+}
+
+.change a{
+  color: black;
+}
+
+.change a:first-child {
+  border: 1px solid rgba(0, 0, 0, .4);
 }
 
 hr{
   border-width: 2px 0;
   margin: 0 3rem;
-}
-
-h2{
-  padding: 0 0 0 8rem;
-}
-
-h5{
-  margin-bottom: 1rem;
 }
 
 .wrapper{
@@ -101,4 +153,44 @@ h5{
 
 .social-menu ul li:nth-child(4) a:hover{
   color: #09b83e;
+}
+
+@media only screen and (min-width: 720px) {
+  header {
+    background: rgba(0,0,0,1);
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff', GradientType=0 );
+  }
+  .main-nav {
+    flex-wrap: nowrap;
+    justify-content: right;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .main-nav a {
+    width: auto;
+    color: white; 
+    padding: 8px 15px;
+    margin: 15px 10px 8px;
+    border-bottom: none;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .main-nav a:hover {
+    color: #b6b6b6;
+  }
+  .main-nav a:last-child {
+    margin-right: 8vw;
+  }
+  .logoicon {
+    left: 9vw;
+    transform: translate(0,23px);
+    transition: all ease .3s;
+  }
+  .bigchange a {
+    color: #000;
+    margin: 2px 10px;
+  }
+  .lgchange {
+    transform: translate(0,13px);
+  }
 }
