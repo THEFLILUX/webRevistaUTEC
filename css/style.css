@@ -9,6 +9,7 @@
 header {
   width: 100%;
   position: fixed;
+  z-index: 5;
   transition: .3s;
 }
 .logoicon {
@@ -93,10 +94,6 @@ header {
   border: 1px solid rgba(0, 0, 0, .4);
 }
 
-hr{
-  border-width: 2px 0;
-  margin: 0 3rem;
-}
 
 .wrapper{
   margin-left: 10rem;
