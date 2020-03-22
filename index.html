@@ -27,18 +27,35 @@
 <body>
 
   <!-- Navegación -->
-  <header>
-    <a href="#" class="logoicon"><img src="img/logo_sample.jpg" alt="Logo"></a>
-    <nav class="mobile-icon">
-      <a href=""><i class="fa fa-bars" aria-hidden="true"></i></a>
-      <a href="#"><i class="fa fa-bullhorn"></i></a>
-    </nav>
-    <nav class="main-nav">
-      <a href="/">Inicio</a>
-      <a href="E&I.html">Emprendimiento e Investigación</a>
-      <a href="VidaUniversitaria.html">Vida Universitaria</a>
-      <a href="Actualidad.html">Actualidad</a>
-      <a href="Opinion.html">Opinión</a>
+  <header class="header_area">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <a href="index.html" class="navbar-brand"><img src="img/logo_piso11.png" alt="Logo"></a>
+        <ul class="nav-list nav-list-mobile">
+          <li class="nav-item">
+            <div class="mobile-menu" data-toggle="collapse" data-target="#navbarResponsive">
+              <span class="line line-top"></span>
+              <span class="line line-bottom"></span>
+            </div>
+          </li>
+        </ul>
+        <div class="navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="E&I.html">Emprendimiento e investigación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="VidaUniversitaria.html">Vida Universitaria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Actualidad.html">Actualidad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Opinion.html">Opinión</a>
+            </li>  
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
   <!-- [Fin] Navegación -->
@@ -47,7 +64,7 @@
   <div id="wrapper" class="banner">
     <div class="owl-carousel owl-theme">
         <div class="item" style="background-image: url(img/carousel1.jpg);"></div>
-        <div class="item" style="background-image: url(img/carousel2.jpg);""></div>
+        <div class="item" style="background-image: url(img/carousel2.jpg);"></div>
     </div>
     <div class="owl-controls">
       <div class="owl-nav">
@@ -57,39 +74,38 @@
     </div>
   </div>
   <!-- [Fin] Carousel -->
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
 
   <!-- Footer -->
-  <footer>
-        <div class="foottop">
-           <div class="inside">
-              <div class="text">
-                <h3>Discover the latest trends in
-                  web design and development</h3>
-                <p>Trying to stay on top of it all? Get the best tools, resources and inspiration sent to your inbox weekly.</p>
-              </div>
-              <div class="sub">
-                <input type="email" required="required" id="enter" name="text" placeholder="Ingresa tu dirección de correo">
-                <input type="button" id="subs" value="Suscribete">
-              </div>
-           </div>
-        </div>
-        <div class="footdown">
-          <p>© <script>document.write(new Date().getFullYear())</script>
-             Company. All rights reserved &nbsp; <a href="#"> Privacy Policy</a></p>
-          <div class="social">
-            <a href="https://www.youtube.com/" target="_blank" ><i class="fa fa-youtube-play"></i></a>
-            <a href="https://www.facebook.com/" target="_blank" ><i class="fa fa-facebook"></i></a>
-            <a href="https://www.instagram.com/" target="_blank" ><i class="fa fa-instagram"></i></a>
-            <a href="https://twitter.com/" target="_blank" ><i class="fa fa-twitter"></i></a>
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="foottop">
+          <div class="text">
+            <h3>Contáctanos</h3>
+            <p>+51 921 279 782<br>revistautec@gmail.com</p>
           </div>
-        </div>
-      </footer>
-  <!-- End Footer -->
+          <div class="text">
+            <h3>Únetenos</h3>
+            <p>¡Sé parte de esta gran familia!</p>
+            <a href="#images" class="btn btn-light ml-3" id="view-work">Ingresa tu correo</a>
+          </div>
+          <div class="text">
+            <h3>Encuentranos</h3>
+            <p>Jr. Medrano Silva 165, Barranco,Lima - Peru</p>
+          </div>
+      </div>
+    </div>
+    <div class="footdown">
+      <p>© <script>document.write(new Date().getFullYear())</script>
+         Piso11. Todos los derechos reservados &nbsp; <a href="#"> Política de Privacidad</a></p>
+      <div class="social">
+        <a href="https://www.youtube.com/" target="_blank" ><i class="fab fa-youtube"></i></a>
+        <a href="https://www.facebook.com/" target="_blank" ><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" ><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/" target="_blank" ><i class="fab fa-spotify"></i></a>
+      </div>
+    </div>
+  </footer>
+<!-- End Footer -->
 
   <!-- JavaScript -->
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
