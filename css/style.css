@@ -426,6 +426,24 @@ hr{
     visibility: visible;
   }
 
+  .covertext{
+    position: relative;
+    top: 20vw;
+  }
+
+  .btn{
+    box-shadow: 0 0.3rem 0.3rem 0 rgba(0, 0, 0, 0.6);
+  }
+
+  .item{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5));
+  }
+
+  .carouselH1{
+    color: white;
+    padding: 0 10vw;
+  }
+
   /* [INICIO] Post */
   .categoria .container{
     width: 30%;
