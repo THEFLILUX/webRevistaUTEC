@@ -31,7 +31,6 @@ body {
 .navbar-nav .nav-item .nav-link{
   color: black;
   padding: 5vw 4vw;
-  font-weight: bold;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -312,7 +311,6 @@ body {
   .navbar-nav .nav-item .nav-link{
     color: black;
     padding: 0 1vw;
-    font-weight: bold;
     font-family: 'Roboto', sans-serif;
   }
 
