@@ -106,7 +106,7 @@ body {
 
 .card{
   box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.5);
-  margin: 0 0 10vw 0;/*TRBL*/
+  margin: 0 0 3vw 0;/*TRBL*/
   border: none;
 }
 
