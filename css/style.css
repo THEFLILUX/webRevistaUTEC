@@ -7,13 +7,6 @@
   box-sizing: border-box;
 }
 
-header {
-  width: 100%;
-  position: fixed;
-  z-index: 5;
-  transition: .3s;
-}
-
 body {
   padding-top: 60px;
 }
