@@ -336,9 +336,10 @@ body {
   /* [FIN] Carousel */
 
   /* [INICIO] Categoria */
+
   .categoria .container{
     width: 30%;
-    height: 4rem;
+    height: 4vw;
     margin-top: 4vw;
     text-align: center;
     background-color: black;
@@ -346,7 +347,7 @@ body {
   }
   
   .categoria .container h2{
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     transform: translateY(50%);
   }
   /* [FIN] Categoria */
