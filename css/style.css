@@ -74,7 +74,8 @@ body {
   color: white;
 }
 
-.covertext a{
+.covertext .btn{
+  position: relative;
   display: none;
   box-shadow: 0 0.5rem 0.6rem 0 rgba(0, 0, 0, 0.6);
 }
@@ -327,7 +328,7 @@ body {
     color: white;
   }
 
-  .covertext a{
+  .covertext .btn{
     display: inline-block;
     margin-top: 1vw;
   }
