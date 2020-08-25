@@ -469,4 +469,16 @@ body {
     margin-right: 1rem;
   }
   /* [FIN] Footer */
+
+  /* [INICIO] Lista con guiones  */
+  ul.dash {
+  list-style-type: none;
+  }
+
+  ul.dash li:before {
+    content: '\2012';
+    position: absolute;
+    margin-left: -12px;
+  }
+  /* [FIN] Lista con guiones */
 }
