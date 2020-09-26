@@ -183,6 +183,10 @@ body {
 .blockquote p{
  font-weight: bold;
 }
+
+.text-indent{
+  margin-left: 30px;
+}
 /*[FIN] Post*/
 
 /* [INICIO] Footer */
