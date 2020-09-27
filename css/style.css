@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet');
 
 * {
@@ -13,7 +13,7 @@ body {
 
 /* [INICIO] Navbar */
 
-.navbar{
+.navbar {
   box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.5);
 }
 
@@ -25,30 +25,30 @@ body {
   transform: translate(65%, 0);
 }
 
-.navbar-brand img{
+.navbar-brand img {
   height: 33px;
   width: auto;
 }
 
-.navbar-nav .nav-item .nav-link{
+.navbar-nav .nav-item .nav-link {
   color: black;
   padding: 5vw 4vw;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.collapsing{
+.collapsing {
   height: 100vh;
   transition: 0s;
   background-color: white;
 }
 
-.collapse.show{
+.collapse.show {
   height: 100vh;
   transition: 0.3s;
   background-color: white;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   border: none;
 }
 
@@ -64,17 +64,17 @@ body {
   background-size: cover;
 }
 
-.covertext{
+.covertext {
   margin-top: 50%;
   padding: 0 15vw;
   align-items: center;
 }
 
-.covertext h1{
+.covertext h1 {
   color: white;
 }
 
-.covertext .btn{
+.covertext .btn {
   position: relative;
   display: none;
   box-shadow: 0 0.5rem 0.6rem 0 rgba(0, 0, 0, 0.6);
@@ -83,7 +83,7 @@ body {
 /* [FIN] Carousel */
 
 /* [INICIO] Categoria */
-.categoria .container{
+.categoria .container {
   width: 90%;
   height: 13vw;
   margin-top: 10vw;
@@ -92,50 +92,54 @@ body {
   color: white;
 }
 
-.categoria .container h2{
+.categoria .container h2 {
   font-size: 5vw;
   transform: translateY(50%);
 }
 /* [FIN] Categoria */
 
-.card{
+.card {
   box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.5);
-  margin: 0 0 10vw 0;/*TRBL*/
+  margin: 0 0 10vw 0; /*TRBL*/
   border: none;
+}
+
+.card-img-top {
+  object-fit: cover;
 }
 
 /*[INICIO] Post*/
 
-.titulo{
+.titulo {
   width: 80%;
   text-align: center;
   margin: 3% auto 0 auto;
 }
 
-.titulo h1{
-  font-family: 'Anton', sans-serif;
+.titulo h1 {
+  font-family: "Anton", sans-serif;
   font-size: 6vw;
 }
 
-.content{
+.content {
   text-align: center;
   width: 90%;
   margin: auto auto;
 }
 
-.content .post-img img{
+.content .post-img img {
   width: 100%;
   z-index: 1;
   box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.5);
 }
 
-.text-wrapper{
+.text-wrapper {
   width: 90%;
   position: relative;
   z-index: 3;
 }
 
-.text-wrapper .autor-tag{
+.text-wrapper .autor-tag {
   text-align: center;
   color: black;
   font-size: 2.5vw;
@@ -143,7 +147,7 @@ body {
   padding: 6vw 0 0 5vw; /*TRBL*/
 }
 
-.text-wrapper .autor{
+.text-wrapper .autor {
   float: left;
   color: black;
   font-size: 2.5vw;
@@ -151,47 +155,47 @@ body {
   padding: 6vw 0 0 2vw; /*TRBL*/
 }
 
-.text-wrapper .fecha{
+.text-wrapper .fecha {
   float: right;
   color: black;
   font-size: 2.5vw;
   padding: 6vw 0 0 0; /*TRBL*/
 }
 
-.text-wrapper .fecha .far.fa-clock{
+.text-wrapper .fecha .far.fa-clock {
   font-size: 2vw;
   padding: 0 2vw 0 0; /*TRBL*/
 }
 
-.post-text .container{
+.post-text .container {
   padding: 10vh 8vw 0 8vw;
 }
 
-.post-text ol{
+.post-text ol {
   padding: 0vw 8vw;
 }
 
-.post-text ol li{
+.post-text ol li {
   padding: 5vw 0;
 }
 
-.blockquote{
+.blockquote {
   padding: 0vw 4vw;
   font-size: 1.1vw;
 }
 
-.blockquote p{
- font-weight: bold;
+.blockquote p {
+  font-weight: bold;
 }
 
-.text-indent{
+.text-indent {
   margin-left: 30px;
 }
 
-.text-francesa{
+.text-francesa {
   text-align: left;
   text-indent: -30px;
-  padding-left: 30px
+  padding-left: 30px;
 }
 /*[FIN] Post*/
 
@@ -203,10 +207,10 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   background-color: #262626;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.footer .foottop{
+.footer .foottop {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -221,7 +225,7 @@ body {
   margin: 1em 0;
 }
 
-.foottop .text{
+.foottop .text {
   max-width: 450px;
   margin: 3rem 0;
   text-align: center;
@@ -241,19 +245,20 @@ body {
   margin: 1em 0 0 0;
 }
 
-.foottop .text a{
+.foottop .text a {
   margin-top: 1rem;
   margin-right: 1rem;
 }
 
 .footer .footdown {
-  border-top: 1.5px solid #9F9F9F;
-  color: #999D97;
+  border-top: 1.5px solid #9f9f9f;
+  color: #999d97;
   font-size: 14px;
   text-align: center;
 }
 
-.footer .footdown p, footer .footdown .social {
+.footer .footdown p,
+footer .footdown .social {
   margin: 1em 0;
 }
 .footer .footdown a {
@@ -267,17 +272,17 @@ body {
   justify-content: center;
 }
 
-.footdown .social a{
+.footdown .social a {
   font-size: 22px;
   margin-right: 16px;
-  transition: .5S;
+  transition: 0.5s;
 }
 
 .footdown .social a:last-child {
   margin: 0;
 }
 
-.footdown .social a:nth-child(1):hover{
+.footdown .social a:nth-child(1):hover {
   color: #cd201f;
 }
 
@@ -293,26 +298,25 @@ body {
   color: #09b83e;
 }
 
-.iconTag{
+.iconTag {
   color: inherit;
   text-decoration: none;
 }
 
-.iconTag:hover{
+.iconTag:hover {
   color: inherit;
   text-decoration: none;
   cursor: pointer;
 }
 
-.text-1{
+.text-1 {
   font-size: smaller;
 }
 
 /* [FIN] Footer */
 
 @media only screen and (min-width: 720px) {
-
-  .navbar{
+  .navbar {
     height: 9vh;
     box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.5);
   }
@@ -325,7 +329,7 @@ body {
     transform: translate(-25%, 0px);
   }
 
-  .navbar-nav{
+  .navbar-nav {
     position: absolute;
     display: flex;
     justify-content: flex-end;
@@ -335,25 +339,25 @@ body {
     width: 100%;
   }
 
-  .navbar-nav .nav-item .nav-link{
+  .navbar-nav .nav-item .nav-link {
     color: black;
     padding: 0 1vw;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 
   /* [INICIO] Carousel */
 
-  .covertext{
+  .covertext {
     margin-top: 35vh;
     padding: 0 15vw;
     align-items: center;
   }
 
-  .covertext h1{
+  .covertext h1 {
     color: white;
   }
 
-  .covertext .btn{
+  .covertext .btn {
     display: inline-block;
     margin-top: 1vw;
   }
@@ -362,7 +366,7 @@ body {
 
   /* [INICIO] Categoria */
 
-  .categoria .container{
+  .categoria .container {
     width: 30%;
     height: 4vw;
     margin-top: 2vw;
@@ -371,102 +375,102 @@ body {
     background-color: black;
     color: white;
   }
-  
-  .categoria .container h2{
+
+  .categoria .container h2 {
     font-size: 1.5vw;
     transform: translateY(50%);
   }
   /* [FIN] Categoria */
 
-  .card{
+  .card {
     box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.5);
-    margin: 0 0 3vw 0;/*TRBL*/
+    margin: 0 0 3vw 0; /*TRBL*/
     border: none;
   }
 
-  .card-img{
+  .card-img {
     height: 100%;
   }
 
-  .fixedSize{
+  .fixedSize {
     height: 470px;
   }
 
-  .overSize{
+  .overSize {
     font-size: 0.75rem;
   }
 
-  .overSize2{
+  .overSize2 {
     font-size: 0.9rem;
   }
 
   /* [INICIO] Post */
 
-  .titulo{
+  .titulo {
     width: 50%;
     text-align: center;
     margin: 3% auto 0 auto;
   }
-  
-  .titulo h1{
-    font-family: 'Anton', sans-serif;
+
+  .titulo h1 {
+    font-family: "Anton", sans-serif;
     font-size: 3vw;
   }
 
-  .content{
+  .content {
     text-align: center;
     width: 65%;
     margin: 3% auto 5% auto;
   }
-  
-  .content img{
+
+  .content img {
     width: 100%;
     z-index: 2;
     box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.5);
   }
 
-  .text-wrapper{
+  .text-wrapper {
     width: 100%;
     position: relative;
     z-index: 2;
   }
-  
-  .text-wrapper .autor-tag{
+
+  .text-wrapper .autor-tag {
     text-align: center;
     color: black;
     font-size: 1vw;
     float: left;
     padding: 2rem 0 0 3rem; /*TRBL*/
   }
-  
-  .text-wrapper .autor{
+
+  .text-wrapper .autor {
     float: left;
     color: black;
     font-size: 1vw;
     padding: 2rem 0 0 1rem; /*TRBL*/
   }
-  
-  .text-wrapper .fecha{
+
+  .text-wrapper .fecha {
     float: right;
-    color: black  ;
+    color: black;
     font-size: 1vw;
     padding: 2rem 3vw 0 0; /*TRBL*/
   }
-  
-  .text-wrapper .fecha .far.fa-clock{
+
+  .text-wrapper .fecha .far.fa-clock {
     font-size: 1vw;
     padding: 0 0.5rem 0 0; /*TRBL*/
   }
 
-  .post-text .container{
+  .post-text .container {
     padding: 2vh 8vw 0 8vw;
   }
 
-  .post-text ol{
+  .post-text ol {
     padding: 0vw 4vw;
   }
-  
-  .post-text ol li{
+
+  .post-text ol li {
     padding: 1vw 0;
   }
   /* [FIN] Post */
@@ -476,32 +480,32 @@ body {
   .footer .footdown {
     justify-content: space-between;
   }
-  .footdown .social{
+  .footdown .social {
     transform: translateY(-8px);
   }
 
-  .footer .foottop{
+  .footer .foottop {
     display: grid;
     text-align: center;
     grid-template-columns: 30% 30% 30%;
   }
-  
-  .foottop .text{
+
+  .foottop .text {
     text-align: center;
   }
-  
+
   .foottop h3 {
     color: white;
     font-size: 1.5rem;
     font-weight: normal;
   }
-  
+
   .foottop p {
     color: white;
     font-size: 1rem;
   }
-  
-  .foottop .text a{
+
+  .foottop .text a {
     margin-top: 1rem;
     margin-right: 1rem;
   }
@@ -509,11 +513,11 @@ body {
 
   /* [INICIO] Lista con guiones  */
   ul.dash {
-  list-style-type: none;
+    list-style-type: none;
   }
 
   ul.dash li:before {
-    content: '\2012';
+    content: "\2012";
     position: absolute;
     margin-left: -12px;
   }
