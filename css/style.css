@@ -293,6 +293,21 @@ body {
   color: #09b83e;
 }
 
+.iconTag{
+  color: inherit;
+  text-decoration: none;
+}
+
+.iconTag:hover{
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.text-1{
+  font-size: smaller;
+}
+
 /* [FIN] Footer */
 
 @media only screen and (min-width: 720px) {
@@ -371,6 +386,18 @@ body {
 
   .card-img{
     height: 100%;
+  }
+
+  .fixedSize{
+    height: 470px;
+  }
+
+  .overSize{
+    font-size: 0.75rem;
+  }
+
+  .overSize2{
+    font-size: 0.9rem;
   }
 
   /* [INICIO] Post */
