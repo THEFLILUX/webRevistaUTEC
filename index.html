@@ -1,214 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-<head>
+    <title>Revista Piso11</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-175896002-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  <title>Revista Piso11</title>
+      gtag("config", "UA-175896002-1");
+    </script>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175896002-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <!-- FontAwesome code -->
+    <script
+      src="https://kit.fontawesome.com/4203d3ce21.js"
+      crossorigin="anonymous"
+    ></script>
 
-    gtag('config', 'UA-175896002-1');
-  </script>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-  <!-- FontAwesome code -->
-  <script src="https://kit.fontawesome.com/4203d3ce21.js" crossorigin="anonymous"></script>
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <!-- Navigation -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white fixed-top">
-    <div class="container">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="index.html"><img src="img/logo_piso11.png" alt=""></a>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="E&I.html">Proyectos y Emprendimiento</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="C&T.html">Ciencia y tecnología</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="VidaUniversitaria.html">Vida UTEC</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Actualidad.html">Actualidad</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="EscritosPersonales.html">Escritos Personales</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Cultura.html">Cultura</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/miembros.html">Conócenos</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- Navigation -->
-
-  <!-- Carousel -->
-  <header>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active"
-          style="background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/vida-utec/Portada_deunalumnoaotro.JPG);">
-          <div class="covertext text-center">
-            <a href="/vida-utec/de-un-alumno-a-otro.html"
-              style="text-decoration: none; pointer-events: none;">
-              <h1 class="carouselH1">De un alumno a otro: pequeñas acciones que logran grandes cambios</h1>
-            </a>
-            <a href="/vida-utec/de-un-alumno-a-otro.html" class="btn btn-light"
-              id="view-work">Saber más</a>
-          </div>
-        </div>
-        <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item"
-          style="background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/proyectos-emprendimiento/25-09-20/cover-image.jpeg);">
-          <div class="covertext text-center">
-            <a href="proyectos-emprendimiento/edtech-startups-para-el-futuro.html"
-              style="text-decoration: none; pointer-events: none;">
-              <h1 class="carouselH1">EdTech: Startups para el futuro</h1>
-            </a>
-            <a href="proyectos-emprendimiento/edtech-startups-para-el-futuro.html" class="btn btn-light"
-              id="view-work">Saber más</a>
-          </div>
-        </div>
-        <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item"
-          style="background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/proyectos-emprendimiento/Cuadro_Asesorias.jpeg);">
-          <div class="covertext text-center">
-            <a href="proyectos-emprendimiento/boom-asesorias-academicas-utec.html"
-              style="text-decoration: none; pointer-events: none;">
-              <h1 class="carouselH1">El Boom de las asesorías académicas en UTEC</h1>
-            </a>
-            <a href="proyectos-emprendimiento/boom-asesorias-academicas-utec.html" class="btn btn-light"
-              id="view-work">Saber más</a>
-          </div>
-        </div>
-        <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item"
-          style="background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/ciencia-tecnologia/Imagen1.jpeg);">
-          <div class="covertext text-center">
-            <a href="ciencia-tecnologia/el-ayer-hoy-manhana-spacex.html"
-              style="text-decoration: none; pointer-events: none;">
-              <h1 class="carouselH1">El ayer, hoy y mañana de SpaceX</h1>
-            </a>
-            <a href="ciencia-tecnologia/el-ayer-hoy-manhana-spacex.html" class="btn btn-light" id="view-work">Saber
-              más</a>
-          </div>
-        </div>
-        <!-- Slide Four - Set the background image for this slide in the line below -->
-        <div class="carousel-item"
-          style="background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/actualidad/vacuna.jpg);">
-          <div class="covertext text-center">
-            <a href="actualidad/la-carrera-de-la-vacuna.html" style="text-decoration: none; pointer-events: none;">
-              <h1 class="carouselH1">¿La carrera de la vacuna?</h1>
-            </a>
-            <a href="actualidad/la-carrera-de-la-vacuna.html" class="btn btn-light" id="view-work">Saber más</a>
-          </div>
-        </div>
-        <!-- Slide Five - Set the background image for this slide in the line below -->
-        <div class="carousel-item"
-          style="background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/escritos-personales/clasesonline1.jpeg);">
-          <div class="covertext text-center">
-            <a href="escritos-personales/rendir-mejor-en-clases-virtuales.html"
-              style="text-decoration: none; pointer-events: none;">
-              <h1 class="carouselH1">Cómo rendir mejor en las clases virtuales</h1>
-            </a>
-            <a href="escritos-personales/rendir-mejor-en-clases-virtuales.html" class="btn btn-light" id="view-work">Saber
-              más</a>
-          </div>
+  <body>
+    <!-- Navigation -->
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-light bg-white fixed-top"
+    >
+      <div class="container">
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"
+          ><img src="img/logo_piso11.png" alt=""
+        /></a>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="E&I.html">Proyectos y Emprendimiento</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="C&T.html">Ciencia y tecnología</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="VidaUniversitaria.html">Vida UTEC</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Actualidad.html">Actualidad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="EscritosPersonales.html"
+                >Escritos Personales</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Cultura.html">Cultura</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/miembros.html">Conócenos</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </header>
-  <!-- Carousel -->
+    </nav>
+    <!-- Navigation -->
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container-fluid">
-      <div class="foottop">
-        <div class="text">
-          <h3>Contáctanos</h3>
-          <p>¿Tienes una historia que contar?<br>¡Hagamos que llegue a toda UTEC!</p>
-          <p>revista@utec.edu.pe</p>
+    <!-- Carousel -->
+    <header>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item active"
+            style="background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/actualidad/calzonrojo.jpg);"
+          >
+            <div class="covertext text-center">
+              <a
+                href="/actualidad/mujer-de-la-vida-social.html"
+                style="text-decoration: none; pointer-events: none;"
+              >
+                <h1 class="carouselH1">
+                  Cerremos filas frente a la cultura de violación
+                </h1>
+              </a>
+              <a
+                href="/actualidad/mujer-de-la-vida-social.html"
+                class="btn btn-light"
+                id="view-work"
+                >Saber más</a
+              >
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/vida-utec/Portada_deunalumnoaotro.JPG);"
+          >
+            <div class="covertext text-center">
+              <a
+                href="/vida-utec/de-un-alumno-a-otro.html"
+                style="text-decoration: none; pointer-events: none;"
+              >
+                <h1 class="carouselH1">
+                  De un alumno a otro: pequeñas acciones que logran grandes
+                  cambios
+                </h1>
+              </a>
+              <a
+                href="/vida-utec/de-un-alumno-a-otro.html"
+                class="btn btn-light"
+                id="view-work"
+                >Saber más</a
+              >
+            </div>
+          </div>
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item"
+            style="background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/proyectos-emprendimiento/25-09-20/cover-image.jpeg);"
+          >
+            <div class="covertext text-center">
+              <a
+                href="proyectos-emprendimiento/edtech-startups-para-el-futuro.html"
+                style="text-decoration: none; pointer-events: none;"
+              >
+                <h1 class="carouselH1">EdTech: Startups para el futuro</h1>
+              </a>
+              <a
+                href="proyectos-emprendimiento/edtech-startups-para-el-futuro.html"
+                class="btn btn-light"
+                id="view-work"
+                >Saber más</a
+              >
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item"
+            style="background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/proyectos-emprendimiento/Cuadro_Asesorias.jpeg);"
+          >
+            <div class="covertext text-center">
+              <a
+                href="proyectos-emprendimiento/boom-asesorias-academicas-utec.html"
+                style="text-decoration: none; pointer-events: none;"
+              >
+                <h1 class="carouselH1">
+                  El Boom de las asesorías académicas en UTEC
+                </h1>
+              </a>
+              <a
+                href="proyectos-emprendimiento/boom-asesorias-academicas-utec.html"
+                class="btn btn-light"
+                id="view-work"
+                >Saber más</a
+              >
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item"
+            style="background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/ciencia-tecnologia/Imagen1.jpeg);"
+          >
+            <div class="covertext text-center">
+              <a
+                href="ciencia-tecnologia/el-ayer-hoy-manhana-spacex.html"
+                style="text-decoration: none; pointer-events: none;"
+              >
+                <h1 class="carouselH1">El ayer, hoy y mañana de SpaceX</h1>
+              </a>
+              <a
+                href="ciencia-tecnologia/el-ayer-hoy-manhana-spacex.html"
+                class="btn btn-light"
+                id="view-work"
+                >Saber más</a
+              >
+            </div>
+          </div>
+          <!-- Slide Four - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item"
+            style="background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/actualidad/vacuna.jpg);"
+          >
+            <div class="covertext text-center">
+              <a
+                href="actualidad/la-carrera-de-la-vacuna.html"
+                style="text-decoration: none; pointer-events: none;"
+              >
+                <h1 class="carouselH1">¿La carrera de la vacuna?</h1>
+              </a>
+              <a
+                href="actualidad/la-carrera-de-la-vacuna.html"
+                class="btn btn-light"
+                id="view-work"
+                >Saber más</a
+              >
+            </div>
+          </div>
+          <!-- Slide Five - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item"
+            style="background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/escritos-personales/clasesonline1.jpeg);"
+          >
+            <div class="covertext text-center">
+              <a
+                href="escritos-personales/rendir-mejor-en-clases-virtuales.html"
+                style="text-decoration: none; pointer-events: none;"
+              >
+                <h1 class="carouselH1">
+                  Cómo rendir mejor en las clases virtuales
+                </h1>
+              </a>
+              <a
+                href="escritos-personales/rendir-mejor-en-clases-virtuales.html"
+                class="btn btn-light"
+                id="view-work"
+                >Saber más</a
+              >
+            </div>
+          </div>
         </div>
-        <div class="text">
-          <h3>Únete a nuestro equipo</h3>
-          <p>¡Sé parte de esta gran familia!</p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSe2MtjjToOYyoDsp5eUST_NAU3Cj0OCEm1OuySVFoGzCrZ3Ug/viewform"
-            class="btn btn-light ml-3" id="view-work">Ingresa tu correo</a>
-        </div>
-        <div class="text">
-          <h3>Encuéntranos</h3>
-          <p>Jr. Medrano Silva 165, Barranco,Lima - Peru</p>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+    <!-- Carousel -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="foottop">
+          <div class="text">
+            <h3>Contáctanos</h3>
+            <p>
+              ¿Tienes una historia que contar?<br />¡Hagamos que llegue a toda
+              UTEC!
+            </p>
+            <p>revista@utec.edu.pe</p>
+          </div>
+          <div class="text">
+            <h3>Únete a nuestro equipo</h3>
+            <p>¡Sé parte de esta gran familia!</p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSe2MtjjToOYyoDsp5eUST_NAU3Cj0OCEm1OuySVFoGzCrZ3Ug/viewform"
+              class="btn btn-light ml-3"
+              id="view-work"
+              >Ingresa tu correo</a
+            >
+          </div>
+          <div class="text">
+            <h3>Encuéntranos</h3>
+            <p>Jr. Medrano Silva 165, Barranco,Lima - Peru</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="footdown">
-      <p>©
-        <script>document.write(new Date().getFullYear())</script>
-        Piso11. Todos los derechos reservados. &nbsp; <a href="#"> Política de Privacidad</a></p>
-      <div class="social">
-        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
-        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/revistapiso11/" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://twitter.com/" target="_blank"><i class="fab fa-spotify"></i></a>
+      <div class="footdown">
+        <p>
+          ©
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          Piso11. Todos los derechos reservados. &nbsp;
+          <a href="#"> Política de Privacidad</a>
+        </p>
+        <div class="social">
+          <a href="https://www.youtube.com/" target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://www.instagram.com/revistapiso11/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/" target="_blank"
+            ><i class="fab fa-spotify"></i
+          ></a>
+        </div>
       </div>
-    </div>
-  </footer>
-  <!-- End Footer -->
+    </footer>
+    <!-- End Footer -->
 
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-</body>
-
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
