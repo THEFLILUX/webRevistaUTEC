@@ -197,6 +197,14 @@ body {
   text-indent: -30px;
   padding-left: 30px;
 }
+
+.margin-ul {
+  list-style-type: square;
+}
+
+.margin-ul li {
+  margin-left: 20px;
+}
 /*[FIN] Post*/
 
 /* [INICIO] Footer */
