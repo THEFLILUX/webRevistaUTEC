@@ -205,6 +205,12 @@ body {
 .margin-ul li {
   margin-left: 20px;
 }
+
+.photo-footer {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
 /*[FIN] Post*/
 
 /* [INICIO] Footer */
