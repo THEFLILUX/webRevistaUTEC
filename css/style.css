@@ -406,6 +406,18 @@ footer .footdown .social {
     height: 100%;
   }
 
+  #card-img{
+    background:rgba(0, 0, 0, 0.6);
+    height: 218px;
+    border-radius: 1%;
+    overflow: hidden;
+    background-size: cover;
+  }
+
+  #card-img img{
+    width: 100%;
+  }
+
   .fixedSize {
     height: 470px;
   }
